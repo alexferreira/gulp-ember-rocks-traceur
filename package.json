@@ -1,0 +1,47 @@
+{
+  "name": "gulp-ember-rocks-traceur",
+  "version": "0.0.1",
+  "description": "A Gulp plugin. Compile ES6 script on the fly using traceur-compiler for ember-rocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexferreira/gulp-ember-rocks-traceur"
+  },
+  "keywords": [
+    "gulpplugin",
+    "traceur",
+    "rewriting",
+    "transformation",
+    "syntax",
+    "codegen",
+    "desugaring",
+    "javascript",
+    "ecmascript",
+    "language",
+    "es5",
+    "es6",
+    "ES.next",
+    "harmony",
+    "compiler",
+    "transpiler",
+    "ember-rocks"
+  ],
+  "author": "Alex Ferreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexferreira/gulp-ember-rocks-traceur/issues"
+  },
+  "homepage": "https://github.com/alexferreira/gulp-ember-rocks-traceur",
+  "peerDependencies": {
+    "traceur": "*"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "lodash": "^2.4.1",
+    "through2": "^0.6.1",
+    "traceur": "*"
+  }
+}
